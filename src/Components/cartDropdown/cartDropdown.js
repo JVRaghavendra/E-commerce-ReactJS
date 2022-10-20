@@ -29,3 +29,5 @@ const mapStateToProps = ({cart: {cartItems}}) => ({
 })
 
 export default withRouter(connect(mapStateToProps)(cartDropdown))
+
+//test
